@@ -1,3 +1,4 @@
+
 # Desafio
 - https://imersao.devopspro.com.br/evento/
   
@@ -24,6 +25,8 @@ kubectl apply -f k8s/deployment.yaml
 
 Criação de roles para EKS e EC2
 
+![1731169274259](image/README/1731169274259.png)
+
 Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml](https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml)))
 
 - cloudformation
@@ -31,5 +34,4 @@ Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudfor
 ![1731118605961](image/README/1731118605961.png)
 
 - eks
-
--
+- awscli
