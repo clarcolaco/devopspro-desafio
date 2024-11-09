@@ -8,6 +8,13 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
+      - name: Obter codigo do projeto
+        run: actions.checkout@v4
+      - name: Autenticar no dockerhub - Container Registry
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Autenticar no Docker Hub
         run: echo "Exceutando o comando docker login"
       - name: Construcao da imagem docker
