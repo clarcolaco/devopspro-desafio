@@ -16,3 +16,17 @@ k3d cluster create clusterfakeshop  --servers 1 --agents 2 -p "8080:31000@loadba
 ```
 kubectl apply -f k8s/deployment.yaml
 ```
+
+# aula 03 - AWS
+
+Criação de roles para EKS e EC2
+
+Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml](https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml)))
+
+- cloudformation
+
+![1731118605961](image/README/1731118605961.png)
+
+- eks
+
+-
