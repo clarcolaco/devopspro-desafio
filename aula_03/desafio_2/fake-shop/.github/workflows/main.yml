@@ -1,0 +1,28 @@
+name: CI-CD
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Autenticar no Docker Hub
+        run: echo "Exceutando o comando docker login"
+      - name: Construcao da imagem docker
+        run: excho "Executando comando docker build"
+      - name: Envio da imagem docker
+        run: echo "Executando o comando docker push..."
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Autenticar aws
+        run: echo "Exceutando o comando aws"
+      - name: Construcao da imagem docker
+        run: excho "Executando comando docker build"
+      - name: Envio da imagem docker
+        run: echo "Executando o comando docker push..."
+
+    
+  
