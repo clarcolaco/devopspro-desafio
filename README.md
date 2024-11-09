@@ -34,11 +34,12 @@ Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudfor
 ![1731118605961](image/README/1731118605961.png)
 
 - eks - cluster
-  ![1731170181788](image/README/1731170181788.png)
+  -  ![1731170181788](image/README/1731170181788.png)
 - awscli
   - acessar o cluster
   - criar grupos de nós na aws
 - manifesto deployment (postgres + app)
   - ./aula_03/desafio_2/fake-shop/k8s/deployment.yaml
+  - 
   - ![1731173265736](image/README/1731173265736.png)
 -
