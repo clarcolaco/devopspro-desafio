@@ -1,7 +1,7 @@
 # Desafio
 - https://imersao.devopspro.com.br/evento/
   
-# aula 01 -conversao-distancia [docker]
+# aula 01 -conversao-distancia [docker] [Desafio 1]
 
 Imagem no dockerhub: https://hub.docker.com/repository/docker/clar1703/conversao-distancia/general
 
@@ -20,7 +20,7 @@ k3d cluster create clusterfakeshop  --servers 1 --agents 2 -p "8080:31000@loadba
 kubectl apply -f k8s/deployment.yaml
 ```
 
-# aula 03 - AWS
+# aula 03 - AWS [Desafio 2]
 
 Criação de roles para EKS e EC2
 
