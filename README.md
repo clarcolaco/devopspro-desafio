@@ -30,7 +30,6 @@ Criação de roles para EKS e EC2
 
 
 - Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml](https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml)))
-
 - cloudformation
 
   - ![1731118605961](https://github.com/clarcolaco/devopspro-desafio/raw/aula-01/image/README/1731118605961.png)
@@ -46,3 +45,5 @@ Criação de roles para EKS e EC2
   - ./aula_03/desafio_2/fake-shop/k8s/deployment.yaml
   - 
   - ![1731173265736](image/README/1731173265736.png)
+
+# aula 04 - github actions (ci/cd)
