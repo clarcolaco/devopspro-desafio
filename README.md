@@ -25,21 +25,24 @@ kubectl apply -f k8s/deployment.yaml
 
 Criação de roles para EKS e EC2
 
-![1731169274259](image/README/1731169274259.png)
+- aws
+  - ![1731169274259](https://github.com/clarcolaco/devopspro-desafio/raw/aula-01/image/README/1731169274259.png)
 
-Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml](https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml)))
+
+- Template cloudformation ([https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml](https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml)))
 
 - cloudformation
 
-![1731118605961](image/README/1731118605961.png)
-
+  - ![1731118605961](https://github.com/clarcolaco/devopspro-desafio/raw/aula-01/image/README/1731118605961.png)
 - eks - cluster
-  -  ![1731170181788](image/README/1731170181788.png)
+
+  - ![1731170181788](image/README/1731170181788.png)
 - awscli
+
   - acessar o cluster
   - criar grupos de nós na aws
 - manifesto deployment (postgres + app)
+
   - ./aula_03/desafio_2/fake-shop/k8s/deployment.yaml
   - 
   - ![1731173265736](image/README/1731173265736.png)
--
