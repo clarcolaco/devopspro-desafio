@@ -11,7 +11,7 @@ jobs:
       - name: Autenticar no Docker Hub
         run: echo "Exceutando o comando docker login"
       - name: Construcao da imagem docker
-        run: excho "Executando comando docker build"
+        run: echo "Executando comando docker build"
       - name: Envio da imagem docker
         run: echo "Executando o comando docker push..."
   cd:
@@ -20,7 +20,7 @@ jobs:
       - name: Autenticar aws
         run: echo "Exceutando o comando aws"
       - name: Construcao da imagem docker
-        run: excho "Executando comando docker build"
+        run: echo "Executando comando docker build"
       - name: Envio da imagem docker
         run: echo "Executando o comando docker push..."
 
